@@ -1,0 +1,59 @@
+(module QFN40P400X400X100-33N-D (layer F.Cu)
+  (descr "RSM (S-PVQFN-N32)")
+  (tags "Integrated Circuit")
+  (attr smd)
+  (fp_text reference IC** (at 0 0) (layer F.SilkS)
+    (effects (font (size 1.27 1.27) (thickness 0.254)))
+  )
+  (fp_text value QFN40P400X400X100-33N-D (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.254)))
+  )
+  (fp_line (start -2.65 -2.65) (end 2.65 -2.65) (layer Dwgs.User) (width 0.05))
+  (fp_line (start 2.65 -2.65) (end 2.65 2.65) (layer Dwgs.User) (width 0.05))
+  (fp_line (start 2.65 2.65) (end -2.65 2.65) (layer Dwgs.User) (width 0.05))
+  (fp_line (start -2.65 2.65) (end -2.65 -2.65) (layer Dwgs.User) (width 0.05))
+  (fp_line (start -2 -2) (end 2 -2) (layer Dwgs.User) (width 0.1))
+  (fp_line (start 2 -2) (end 2 2) (layer Dwgs.User) (width 0.1))
+  (fp_line (start 2 2) (end -2 2) (layer Dwgs.User) (width 0.1))
+  (fp_line (start -2 2) (end -2 -2) (layer Dwgs.User) (width 0.1))
+  (fp_line (start -2 -1.6) (end -1.6 -2) (layer Dwgs.User) (width 0.1))
+  (fp_circle (center -2.4 -2) (end -2.4 -1.9) (layer F.SilkS) (width 0.2))
+Sh "1" rect 0.2 0.5 0 0 90
+Sh "2" rect 0.2 0.5 0 0 90
+Sh "3" rect 0.2 0.5 0 0 90
+Sh "4" rect 0.2 0.5 0 0 90
+Sh "5" rect 0.2 0.5 0 0 90
+Sh "6" rect 0.2 0.5 0 0 90
+Sh "7" rect 0.2 0.5 0 0 90
+Sh "8" rect 0.2 0.5 0 0 90
+Sh "9" rect 0.2 0.5 0 0 0
+Sh "10" rect 0.2 0.5 0 0 0
+Sh "11" rect 0.2 0.5 0 0 0
+Sh "12" rect 0.2 0.5 0 0 0
+Sh "13" rect 0.2 0.5 0 0 0
+Sh "14" rect 0.2 0.5 0 0 0
+Sh "15" rect 0.2 0.5 0 0 0
+Sh "16" rect 0.2 0.5 0 0 0
+Sh "17" rect 0.2 0.5 0 0 90
+Sh "18" rect 0.2 0.5 0 0 90
+Sh "19" rect 0.2 0.5 0 0 90
+Sh "20" rect 0.2 0.5 0 0 90
+Sh "21" rect 0.2 0.5 0 0 90
+Sh "22" rect 0.2 0.5 0 0 90
+Sh "23" rect 0.2 0.5 0 0 90
+Sh "24" rect 0.2 0.5 0 0 90
+Sh "25" rect 0.2 0.5 0 0 0
+Sh "26" rect 0.2 0.5 0 0 0
+Sh "27" rect 0.2 0.5 0 0 0
+Sh "28" rect 0.2 0.5 0 0 0
+Sh "29" rect 0.2 0.5 0 0 0
+Sh "30" rect 0.2 0.5 0 0 0
+Sh "31" rect 0.2 0.5 0 0 0
+Sh "32" rect 0.2 0.5 0 0 0
+Sh "33" rect 2.8 2.8 0 0 0
+  (model LP5024RSMR.stp
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
